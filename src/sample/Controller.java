@@ -130,11 +130,7 @@ public class Controller {
         if(ret.isEmpty()) ret.addAll(scanR1(checker));
         return ret;
     }
-    /********************************************************************************************
-     * ******************************************************************************************
-     *              DRAG CONTROLS
-     * ******************************************************************************************
-     * ******************************************************************************************/
+
     //PROBLEM
     public void controlDragDetected(MouseEvent e) {
         //get relative valid movements for comparison
@@ -204,9 +200,7 @@ public class Controller {
         }
         resetTiles();
     }
-    /*******************************************************************************************
-     *                END CONTROLS
-     *******************************************************************************************/
+    
     //reset the tiles to their default colors
     @SuppressWarnings({"rawtypes", "unchecked"})
     public void resetTiles() {
