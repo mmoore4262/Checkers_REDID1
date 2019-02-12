@@ -67,13 +67,13 @@ public class CheckerBoard extends sample.TrueGrid {
                         add(tmp, i, j);
                     }
                     else {
-                        tmp.setFill(Color.MAROON);
+                        tmp.setFill(Color.DARKBLUE);
                         add(tmp, i, j);
                     }
                 }
                 else {
                     if(i%2 == 0) {
-                        tmp.setFill(Color.MAROON);
+                        tmp.setFill(Color.DARKBLUE);
                         add(tmp, i, j);
                     }
                     else {

@@ -24,11 +24,11 @@ public class Checker extends Circle {
         //decide if checker is red or black
         if(tmp.equals("red")) {
             team = tmp;
-            setFill(Color.RED);
+            setFill(Color.PINK);
         }
         else if(tmp.equals("black")) {
             team = tmp;
-            setFill(Color.BLACK);
+            setFill(Color.GRAY);
         }
         else throw new Error("team must be red or black");
         //center piece
@@ -79,12 +79,12 @@ public class Checker extends Circle {
     public void setKing(boolean state) {
         if(this.team.equals("red"))
         {
-          this.setFill(Color.PINK);
+          this.setFill(Color.RED);
 
         }
         else
         {
-            this.setFill(Color.GRAY);
+            this.setFill(Color.BLACK);
         }
         king = state;
     }
